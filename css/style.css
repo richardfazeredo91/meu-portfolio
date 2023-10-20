@@ -36,6 +36,10 @@ body {
     text-decoration: underline;
 }
 
+.active {
+    border: 1px solid #fff;
+}
+
 .banner img {
     max-height: 550px;
     width: 100%;
