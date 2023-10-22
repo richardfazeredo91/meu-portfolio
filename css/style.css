@@ -11,10 +11,6 @@ body {
     background-color: #061040;
 }
 
-.navbar {
-    background-color: #061040;
-}
-
 .logo {
     background-image: url('https://as1.ftcdn.net/v2/jpg/04/47/98/74/1000_F_447987493_5zONCijmaomCTUOBmEVl70UKRQWzNK4X.jpg');
     background-size: 163px 163px;
@@ -40,17 +36,12 @@ body {
     border: 1px solid #fff;
 }
 
-.banner img {
-    max-height: 550px;
-    width: 100%;
-}
-
 .title h1 {
     color: #fff;
 }
 
 .title h2 {
-    color: #fff;
+    color: blue;
     text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
         0 0 0.2em #87F
 }
