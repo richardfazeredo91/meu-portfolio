@@ -81,6 +81,14 @@ body {
     text-decoration: underline;
 }
 
+#sobre img {
+    align-self: center;
+}
+
+#sobre p {
+    text-align: center;
+}
+
 .texto-apresentacao {
     justify-content: center;
     flex-direction: column;
@@ -90,13 +98,20 @@ body {
     color: #fff;
 }
 
+/*1040*/
+@media screen and (max-width:1250px) {
+    #sobre .col-7 {
+        padding-top: 5%;
+    }
+}
+
 .title-rodape h2 {
     color: #fff;
 }
 
 hr {
     border: 2px solid #fff;
-    width: 60%;
+    width: 75%;
 }
 
 /* Social-icons */
